@@ -13,6 +13,16 @@
 
   <body>
 
+  <% if flash[:success] %>
+    <div class="success callout" data-closable>
+      <%= display_flash_messages %>
+      <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  <% end %>
+
+
     <%= yield %>
 
   </body>

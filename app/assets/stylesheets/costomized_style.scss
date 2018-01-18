@@ -12,3 +12,32 @@ h1.title{
   margin-top: 1rem;
   text-align: center;
 }
+
+//label.error{
+//  color: red;
+//}
+
+//small.error {
+//  display: block;
+//  font-size: 0.66667rem;
+//  font-style: italic;
+//  font-weight: normal;
+//  margin-bottom: 0.88889rem;
+//  margin-top: -1px;
+//  padding: 0.33333rem 0.5rem 0.5rem;
+//  background: #f04124;
+//  color: #2E2F30;
+//}
+
+// FLASH MESSAGES
+a.close{
+  display: none;
+}
+
+.sucess.callout{
+  width: 25%;
+  left: 70%;
+  border-radius: 24px;
+  margin: 1rem 0 0;
+
+}
