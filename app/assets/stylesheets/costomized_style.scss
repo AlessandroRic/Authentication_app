@@ -1,4 +1,4 @@
-//COMMON
+// COMMON
 :root{
   font-size: calc(0.5em + 0.7vw);
 }
@@ -7,27 +7,27 @@ h1.title{
   text-align: center;
 }
 
-//SIGNING FORMS
+// SIGNING FORMS
 #sign_up{
   margin-top: 1rem;
   text-align: center;
 }
 
-//label.error{
-//  color: red;
-//}
+label.error{
+  color: red;
+}
 
-//small.error {
-//  display: block;
-//  font-size: 0.66667rem;
-//  font-style: italic;
-//  font-weight: normal;
-//  margin-bottom: 0.88889rem;
-//  margin-top: -1px;
-//  padding: 0.33333rem 0.5rem 0.5rem;
-//  background: #f04124;
-//  color: #2E2F30;
-//}
+small.error {
+  display: block;
+  font-size: 0.66667rem;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0.88889rem;
+  margin-top: -1px;
+  padding: 0.33333rem 0.5rem 0.5rem;
+  background: #f04124;
+  color: #2E2F30;
+}
 
 // FLASH MESSAGES
 a.close{
@@ -40,4 +40,34 @@ a.close{
   border-radius: 24px;
   margin: 1rem 0 0;
 
+}
+
+// NAVBAR
+$topbar-background: red;
+$topbar-submenu-background: $topbar-background;
+$dropdownmenu-arrow-color: transparent;
+
+nav.top-bar{
+   background-color: #ffae00;
+  padding: 0;
+ }
+
+ul.menu li.menu-text{
+  color: red;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 2.5rem;
+
+}
+
+ul.dropdown.menu li a{
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 2.5rem;
+  color: cornflowerblue;
+}
+
+ul.dropdown.menu li a:hover{
+  color: white;
 }
