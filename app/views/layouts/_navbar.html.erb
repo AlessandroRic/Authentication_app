@@ -27,7 +27,7 @@
               <ul class="menu vertical">
                 <li><%= link_to 'Profile', current_user %></li>
                 <li><%= link_to 'Settings', '#' %></li>
-                <li><%= link_to 'Log Out', '#' %></li>
+                <li><%= link_to 'Log Out', logout_path, method: 'delete' %></li>
               </ul>
             </li>
             <% else %>
