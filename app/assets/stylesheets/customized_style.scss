@@ -3,6 +3,16 @@
   font-size: calc(0.5em + 0.7vw);
 }
 
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content{
+  flex: 1;
+}
+
 h1.title{
   text-align: center;
 }
@@ -70,4 +80,36 @@ ul.dropdown.menu li a{
 
 ul.dropdown.menu li a:hover{
   color: white;
+}
+
+// FOOTER
+.footer {
+  background-color: #225;
+  padding: 2rem 4rem;
+  color: #fff;
+}
+
+.footer h4 {
+  color: rgba(255, 255, 255, 0.0);
+  font-size: 1.3em;
+}
+
+.footer a {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8em;
+}
+
+.footer a span {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
