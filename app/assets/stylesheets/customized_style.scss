@@ -53,35 +53,28 @@ a.close{
 }
 
 // NAVBAR
-$topbar-background: red;
+$topbar-background: #3e474f;
 $topbar-submenu-background: $topbar-background;
 $dropdownmenu-arrow-color: transparent;
-
-nav.top-bar{
-   background-color: #ffae00;
+nav.top-bar {
   padding: 0;
- }
-
-ul.menu li.menu-text{
-  color: red;
+}
+ul.menu li.menu-text {
+  color: #5fcf80;
   font-weight: bold;
   padding-top: 0;
   padding-bottom: 0;
   line-height: 2.5rem;
-
 }
-
-ul.dropdown.menu li a{
+ul.dropdown.menu li a {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 2.5rem;
-  color: cornflowerblue;
+  color: #b2bbbd;
 }
-
-ul.dropdown.menu li a:hover{
+ul.dropdown.menu li a:hover {
   color: white;
 }
-
 // FOOTER
 .footer {
   background-color: #225;
