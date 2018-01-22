@@ -26,5 +26,6 @@ feature 'User Account' do
     click_link 'Log Out'
     expect(current_path).to eq root_path
     expect(page).to have_content('Bye, See you soon!')
+    click_link 'Log In'
   end
 end
