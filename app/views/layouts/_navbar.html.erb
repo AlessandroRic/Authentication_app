@@ -21,7 +21,7 @@
         <a href="#0">Account</a>
         <ul class="submenu menu vertical" data-submenu>
           <li><%= link_to 'Profile', current_user %></li>
-          <li><%= link_to 'Settings', '#' %></li>
+          <li><%= link_to 'Settings', edit_user_path(current_user) %></li>
           <li><%= link_to 'Log Out', logout_path, method: 'delete' %></li>
         </ul>
       </li>
